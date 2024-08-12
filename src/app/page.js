@@ -50,7 +50,6 @@ export default function Home() {
           </Typography.Title>
           <ListFeatures
             src={dataSite.image_hero2}
-
             features={dataSite.services.map((feature) => ({
               icon: <MdArchitecture />,
               title: feature.title,
