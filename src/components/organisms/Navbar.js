@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { navData } from "@/data";
-import { NavbarV2, theme } from "ecommerce-mxtech";
+import { Navbar as NavbarV2, theme } from "ecommerce-mxtech";
 import { useInformation } from "@/store/useInformation";
 
 const { useToken } = theme;
@@ -16,11 +16,11 @@ const Navbar = () => {
   return (
     <NavbarV2
       linksProps={{
-        variant: "link-v2",
-        align: "left",
+        variant: "button",
+        align: "center",
       }}
-      textColor="black"
-
+      textColor={"#000"}
+      backgroundColor="#F9CD9E"
 
       withLogo={true}
       imageProps={{
@@ -46,7 +46,10 @@ const Navbar = () => {
       onRedirect={(path) => router.push(path)}
       onSearch={(value) => { }}
       stylesContentLink={{
-        backgroundColor: "#f7dc6f",
+        backgroundColor: "#F7B56F",
+      }}
+      styleHeader={{
+        height: 120
       }}
     />
   );
