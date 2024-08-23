@@ -8,7 +8,6 @@ const Footer = () => {
   const router = useRouter();
 
   return (
-
     <FooterComponent
       backgroundColor='transparent'
       legal={footerData}
@@ -16,7 +15,7 @@ const Footer = () => {
         window.open(path, '_blank');
       }}
       visaImage='/images/visa.png'
-      masterImage='/images/mastercard.png'
+      masterImage='/images/master.png'
     />
   );
 };
