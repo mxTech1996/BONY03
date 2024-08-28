@@ -1,14 +1,11 @@
-
-export const pageName = "Bony 03";
-export const primaryColor = "#000000";
-export const backgroundColor = "#FFFFFF";
+export const pageName = 'Bony 03';
+export const primaryColor = '#000000';
+export const backgroundColor = '#FFFFFF';
 export const makeClearBackground = (color) => {
   return {
     backgroundColor: color,
-  }
-}
-
-
+  };
+};
 
 export const navData = [
   {
@@ -27,11 +24,11 @@ export const navData = [
 
 export const footerData = [
   {
-    href: '/pdf/AP-MESANEX-MAYO-2024.pdf',
+    href: '/pdf/AP.pdf',
     label: 'Privacy',
   },
   {
-    href: '/pdf/TYC-MESANEX-MAYO-2024.pdf',
+    href: '/pdf/TYC.pdf',
     label: 'Terms',
   },
   {
